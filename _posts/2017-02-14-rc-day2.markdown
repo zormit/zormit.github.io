@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "writing, riddling, learning [day 2]"
+date:   2017-02-14 21:00:00 -0500
+categories: daily-journal
+tags: [rc]
+---
+
+Arriving before 9:00am the place was very quiet, especially compared to the [first day]({% post_url 2017-02-14-first-day-rc %}) where 40-50 people were chatting at the same time. I enjoyed the difference. People were greeting each other by nodding, because it just fitted better to the mood of the place.
+
+My goals for the day did not quite turn out as planned, but I am happy with how the day went. I took the chance to try out different things. I attended several "meetings" or rather "groupings". First, a daily standup like thing called checkin, where it's possible to announce successes, problems of the day before and commits for the day at hand. The most useful feature might be the "who want's to pair with me on problem X".
+
+Following one advice of a fellow to be brave and try out new tools even if they might be annoying, I spent the morning on learning the basics of emacs. I worked one hour through the tutorial, there's more left for tomorrow. My motivation for this is mostly because the development environment [mozart](https://mozart.github.io/) for the programming language Oz is based on emacs. Oz is the basis for the book [Concepts, Techniques, and Models of Computer Programming](https://www.info.ucl.ac.be/~pvr/book.html) which I started to read with a group here at RC.
+
+I committed to using emacs the whole week for editing files, which is a cool thing that becomes possible if you don't have to meet deadlines. It might make me feel(!) less productive (I don't even know if it really matters so much), but after I pick it up I expect to have a new useful tool to use while picking up the wizardry of Oz. [^1]
+
+Then I attended a riddle group, where we tried to solve this problem, which is some interesting variation of the NIM games. There were 45 minutes scheduled which we exactly used to come up with a solution. Unfortunately, as it later turned out, our solution was only half-right, we had skipped an interesting case on the way. But I had the feeling that we were realling moving as a group and that was the fun part. In the beginning of the meeting we were way too many people for teamwork, but we kind of split dynamically into several groups which worked surprisingly smooth from my point of view.
+
+In the time in between I set up a new blog. I wanted to go for something simple and fast to set up, because I knew striving for perfection could take the whole week. An what is a very sophisticated blog system without some content. Kind of useless I'd say. So I decided to set up a jekyll blog which uses Github Pages. I knew this before, but it took longer than expected to set it up for my account. (sidenote: if anyone need help setting such a thing up, let me know)
+
+Tuesday afternoon means coding dojo! After the successful trial yesterday, I went there. We worked on [problem 18 of projecteuler](https://projecteuler.net/problem=18) which turned out to be a [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) challenge. Working with Connor we wanted to use Python, which we were both confident in. We decided to put the triangle in a tree datastructure, which was not the best idea. We got something working, but then the time rand out when we tried to read in a file into our datastructure. There was a way more pragmatic way of copying over the list of numbers, which saves all the read and conversion part, at least for this size of the puzzle.
+
+In the evening I wrote my first blogpost during the IronBlogger meeting and beyond. After two hours of writing I just wanted to get something out, although I had some doubts.
+
+#### Footnotes
+
+[^1]: For terminal and vim users like me the line "alias vim=emacs" might help fulfilling the commitment. It leads to surprises, I can say.
