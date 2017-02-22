@@ -2,7 +2,8 @@
 layout: post
 title:  "First day at Recurse Center"
 date:   2017-02-14 18:00:00 -0500
-categories: rc thoughts
+categories: daily-journal main
+tags: [rc]
 ---
 This is gonna be a "first day at RC" post. See more views on this [here](https://taravancil.com/blog/recurse-center-day-1/), [here](http://jvns.ca/blog/2013/09/30/hacker-school-day-1-messing-around-with-the-stack-in-c/) or [here](https://mike-heaton.com/def-init-self-place-recursecenter-batch-f216-6c3553417615). I'll assume you actually clicked the links or know RC, so I'm gonna jump directly to some personal impressions of and thoughts on my first day at RC which was yesterday.
 

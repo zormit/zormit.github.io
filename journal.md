@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: page
+title: Daily Journal
+permalink: /journal/
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+Here's what I've done and not done.
 
   <ul class="post-list">
     {% for category in site.categories %}
-      {% if category.first == "main" %}
+      {% if category.first == "daily-journal" %}
         {% for posts in category %}
          {% for post in posts %}
            {% unless post.date == nil %}
@@ -19,13 +19,9 @@ layout: default
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
             </h2>
           </li>
-	    {% endunless %}
+            {% endunless %}
           {% endfor %}
-	{% endfor %}
+        {% endfor %}
       {% endif %}
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
