@@ -40,4 +40,4 @@ echo "categories: " >> $FILENAME
 
 echo "---" >> $FILENAME
 
-emacs $FILENAME &
+vim $FILENAME
